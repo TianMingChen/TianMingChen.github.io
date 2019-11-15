@@ -1,0 +1,48 @@
+ <html lang="ch" class="windows desktop landscape"><head>
+    <title>Pixiv Illustration Collection</title>
+    <link rel="icon" href="Index/img/icon.png" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="提供Pixiv插画排行榜的浏览与下载以及热门排序的高级会员搜索">
+    <meta name="keywords" content="pixiv.net,pixiv中国,pixiv怎么上不去,Pixiv,Pixiv每日排行,pixiv高级会员搜索,p站,二次元插画,ACG,动漫图包,pixiv安卓,pixiv站,.pixiv,pixiv图,pixiv中文">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="Index/css/style.css">
+</head>
+<body>
+<div class="content">
+    <div class="banner">
+        <img src="https://wx3.sinaimg.cn/large/007iuyE8gy1g2oenbohijj31uo1amgt4.jpg">
+        <div id="title" style="z-index: 1;">
+            Pixiv Illustration Collection
+        </div>
+    </div>
+    <div class="search">
+        <form action="javascript:void(0);">
+            <input id="search-box" name="q" size="40" type="text" placeholder="(●'◡'●)ﾉ♥關鍵字の輸入" onkeypress="search()">
+            <input id="search-btn" value="Go" type="button" onclick="popSearch()">
+        </form>
+    </div>
+    <div class="dailyRankIcon">
+        <img src="Index/img/beer.svg" onclick="dailyRank()">
+    </div>
+    <div class="dailyRank">
+        <a href="https://pixivic.com/dailyRank" title="月/周/日排行的查看">插画排行榜</a>
+    </div>
+    <div class="help"><a href="https://pixivic.com/intro">须知</a>·<a href="https://pixivic.com/donate">捐助</a>&nbsp;&amp;&nbsp;<a href="https://discuss.pixivic.com/">论坛</a>&nbsp;&amp;&nbsp;<a href="https://pixivic.com/links">友链传送</a></div>
+</div>
+<div class="foot">
+    <div class="iconList">
+        <a href="https://github.com/kimliy" title="前端开发"><p>front-end:</p></a>
+        <a href="https://github.com/kimliy"><img src="Index/img/github.svg"></a>
+        <p>/&nbsp;</p><a href="https://www.oysterqaq.com" title="后端开发"><p>back-end:</p></a>
+        <a href="https://github.com/OysterQAQ"><img src="Index/img/github.svg"></a>
+    </div>
+    <hr>
+    ©2018-2019 pixivic.com All Right Reserved.
+</div>
+<section class="sky"><canvas width="708" height="690" style="position: absolute; top: 0px; left: 0px;"></canvas></section>
+
+<script type="text/javascript" src="Index/js/device.js"></script>
+<script type="text/javascript" src="Index/js/index.js"></script>
+<script type="text/javascript" src="snow.js"></script>
+</body></html>
